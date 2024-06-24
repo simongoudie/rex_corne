@@ -12,3 +12,5 @@ if SHIELD_REX_CORNE_LEFT || SHIELD_REX_CORNE_RIGHT
 
 config ZMK_SPLIT
     default y
+
+endif
