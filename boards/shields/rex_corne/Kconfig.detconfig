@@ -12,13 +12,3 @@ if SHIELD_REX_CORNE_LEFT || SHIELD_REX_CORNE_RIGHT
 
 config ZMK_SPLIT
     default y
-
-if ZMK_BACKLIGHT
-
-config PWM
-    default y
-
-config LED_PWM
-    default y
-
-endif
