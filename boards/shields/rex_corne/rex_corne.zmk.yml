@@ -1,0 +1,14 @@
+file_format: "1"
+id: rex_corne
+name: Rex Corne
+type: shield
+url: https://github.com/simongoudie/rex_corne/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - rex_corne_left
+  - rex_corne_right
