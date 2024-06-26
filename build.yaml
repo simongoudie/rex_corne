@@ -22,3 +22,5 @@ include:
     shield: rex_corne_left
   - board: nice_nano_v2
     shield: rex_corne_right
+  - board: nice_nano_v2
+    shield: settings_reset
