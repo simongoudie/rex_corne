@@ -20,11 +20,9 @@
 include:
   - board: nice_nano_v2
     shield: rex_corne_left
-    snippet: zmk-usb-logging
+#    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: rex_corne_right
-    snippet: zmk-usb-logging
+#    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: settings_reset
-
-#remove usb logging!!
