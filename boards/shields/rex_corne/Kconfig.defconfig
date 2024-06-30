@@ -13,6 +13,9 @@ if SHIELD_REX_CORNE_LEFT || SHIELD_REX_CORNE_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_DISPLAY
+    default y
+
 if ZMK_DISPLAY
 
 config I2C
