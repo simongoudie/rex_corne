@@ -68,9 +68,10 @@
             layers = <0>;
         };
 
-        P+BCKSP_DEL {
+        P_BCKSP_DEL {
             bindings = <&kp DELETE>;
             key-positions = <10 11>;
+            layers = <0>;
         };
     };
 
