@@ -5,6 +5,75 @@
 &led_strip { chain-length = <0>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        TB_Backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <5 30>;
+            layers = <0>;
+        };
+
+        YV_Forwardslash {
+            bindings = <&kp SLASH>;
+            key-positions = <29 6>;
+            layers = <0>;
+        };
+
+        TV_Lparens {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <29 5>;
+            layers = <0>;
+        };
+
+        YB_RParens {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <6 30>;
+            layers = <0>;
+        };
+
+        RT_LBrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <4 5>;
+            layers = <0>;
+        };
+
+        YU_RBrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <6 7>;
+            layers = <0>;
+        };
+
+        FG_LBrack {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        HJ_RBrack {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        JK_BCKSP {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        KL_DEL {
+            bindings = <&kp DELETE>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        P+BCKSP_DEL {
+            bindings = <&kp DELETE>;
+            key-positions = <10 11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -59,10 +128,10 @@
         Calc {
             label = "CALC";
             bindings = <
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp N7  &kp N8  &kp N9  &kp PLUS          &kp MINUS   &kp BSPC
-&trans       &trans        &trans        &trans        &kp C_MUTE    &kp C_VOLUME_UP    &kp N4  &kp N5  &kp N6  &kp ASTERISK      &kp FSLH    &trans
-&bootloader  &trans        &trans        &trans        &trans        &kp C_VOL_DN       &kp N1  &kp N2  &kp N3  &kp K_CALCULATOR  &kp K_COPY  &trans
-                                         &trans        &trans        &trans             &trans  &kp N0  &trans
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp N7  &kp N8  &kp N9      &kp PLUS          &kp MINUS   &kp BSPC
+&trans       &trans        &trans        &trans        &kp C_MUTE    &kp C_VOLUME_UP    &kp N4  &kp N5  &kp N6      &kp ASTERISK      &kp FSLH    &trans
+&bootloader  &trans        &trans        &trans        &trans        &kp C_VOL_DN       &kp N1  &kp N2  &kp N3      &kp K_CALCULATOR  &kp K_COPY  &trans
+                                         &trans        &trans        &trans             &trans  &kp N0  &kp PERIOD
             >;
         };
     };
