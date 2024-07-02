@@ -1,8 +1,5 @@
 draw_config:
-  separate_combo_diagrams: false
-
   svg_extra_style: |
-  /* Color accent for held keys */
-  rect.held, rect.combo.held {
+    rect.held, rect.combo.held {
       fill: #940e04;
-  }
+    }
