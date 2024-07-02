@@ -111,7 +111,10 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
-</style>
+
+rect.held, rect.combo.held {
+  fill: #f00;
+}</style>
 <g transform="translate(30, 0)" class="layer-Alpha">
 <text x="0" y="28" class="label">Alpha:</text>
 <g transform="translate(0, 56)">
