@@ -78,26 +78,31 @@
         GH_Dash {
             bindings = <&kp MINUS>;
             key-positions = <17 18>;
+            layers = <0>;
         };
 
         VB_Under {
             bindings = <&kp UNDERSCORE>;
             key-positions = <29 30>;
+            layers = <0>;
         };
 
         TY_Equals {
             bindings = <&kp EQUAL>;
             key-positions = <5 6>;
+            layers = <0>;
         };
 
         TV_Lpoint {
             bindings = <&kp LESS_THAN>;
             key-positions = <5 29>;
+            layers = <0>;
         };
 
         YB_Rpoint {
             bindings = <&kp GREATER_THAN>;
             key-positions = <6 30>;
+            layers = <0>;
         };
     };
 
@@ -132,7 +137,7 @@
             >;
         };
 
-        Lower {
+        Number {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -148,7 +153,7 @@
             >;
         };
 
-        Raise {
+        Function {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
