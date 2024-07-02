@@ -1,5 +1,5 @@
 draw_config:
   svg_extra_style: |
     rect.held, rect.combo.held {
-      fill: #940e04;
+      fill: #f00;
     }
