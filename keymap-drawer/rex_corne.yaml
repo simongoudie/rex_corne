@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - '&TD1'
   - LEFT ALT
   - LCTRL
   - Number
