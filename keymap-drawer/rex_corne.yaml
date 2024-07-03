@@ -1,47 +1,6 @@
 layers:
-  Alpha:
-  - ESC
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - TAB
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LSHFT
-  - Z
-  - X
-  - {t: F19, h: LEFT SHIFT}
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - '&TD1'
-  - LEFT ALT
-  - LCTRL
-  - Number
-  - RET
-  - SPACE
-  - Function
+  Alpha: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, '&TD_Shft_F19', C, V, B, N, M, ',', ., /, LEFT ALT, LCTRL,
+    '&TD_L1_L2', RET, SPACE, '&TD_L2_L1']
   Number:
   - {t: ▽, type: trans}
   - '!'
@@ -81,7 +40,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   Calc:
   - BT CLR
   - {t: BT, h: '0'}
@@ -167,10 +126,10 @@ layers:
   - CALC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - KP ENTER
   - '0'
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [5, 30]
   k: \
