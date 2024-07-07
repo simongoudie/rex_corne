@@ -104,6 +104,56 @@
             key-positions = <6 30>;
             layers = <0>;
         };
+
+        Num1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <1 13>;
+        };
+
+        Num2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <2 14>;
+        };
+
+        Num3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <3 15>;
+        };
+
+        Num4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <4 16>;
+        };
+
+        Num5 {
+            bindings = <&kp N5>;
+            key-positions = <5 17>;
+        };
+
+        Num6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <6 18>;
+        };
+
+        Num7 {
+            bindings = <&kp N7>;
+            key-positions = <7 19>;
+        };
+
+        Num8 {
+            bindings = <&kp N8>;
+            key-positions = <8 20>;
+        };
+
+        Num9 {
+            bindings = <&kp N9>;
+            key-positions = <9 21>;
+        };
+
+        Num0 {
+            bindings = <&kp N0>;
+            key-positions = <10 22>;
+        };
     };
 
     behaviors {
@@ -136,6 +186,13 @@
             label = "TD_L2_L1";
             #binding-cells = <0>;
             bindings = <&mo 2>, <&mo 1>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings = <&none>, <&none>, <&bootloader>;
         };
     };
 
@@ -194,8 +251,8 @@
             label = "CALC";
             bindings = <
 &bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp N7        &kp N8  &kp N9  &kp PLUS      &kp MINUS   &kp BSPC
-&ext_power EP_ON  &trans        &trans        &trans        &kp C_MUTE    &kp C_VOLUME_UP    &kp N4        &kp N5  &kp N6  &kp ASTERISK  &kp FSLH    &trans
-&bootloader       &trans        &trans        &trans        &trans        &kp C_VOL_DN       &kp N1        &kp N2  &kp N3  &kp PERIOD    &kp K_COPY  &kp K_CALC
+&ext_power EP_ON  &trans        &trans        &trans        &kp C_MUTE    &kp C_VOLUME_UP    &kp N4        &kp N5  &kp N6  &kp ASTERISK  &kp FSLH    &kp K_CALCULATOR
+&bootloader       &trans        &trans        &trans        &trans        &kp C_VOL_DN       &kp N1        &kp N2  &kp N3  &kp PERIOD    &kp K_COPY  &bootloader
                                               &trans        &trans        &trans             &kp KP_ENTER  &kp N0  &trans
             >;
         };
