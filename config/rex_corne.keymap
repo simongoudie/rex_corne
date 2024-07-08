@@ -232,16 +232,6 @@
     };
 
     behaviors {
-        F19tap: F19tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "F19TAP";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            quick-tap-ms = <200>;
-            tapping-term-ms = <200>;
-        };
-
         TD_Shft_F19: TD_Shft_F19 {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_SHFT_F19";
@@ -263,11 +253,13 @@
             bindings = <&mo 2>, <&mo 1>;
         };
 
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <0>;
-            bindings = <&none>, <&none>, <&bootloader>;
+        TD_tab_shift: TD_tab_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TD_TAB_SHIFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
         };
     };
 
@@ -283,10 +275,10 @@
 
             label = "ALPHA";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E         &kp R      &kp T        &kp Y    &kp U      &kp I      &kp O      &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D         &kp F      &kp G        &kp H    &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &TD_Shft_F19  &kp C      &kp V        &kp B    &kp N      &kp M      &kp COMMA  &kp DOT   &kp SLASH
-                         &kp LEFT_ALT  &kp LCTRL  &TD_L1_L2    &kp RET  &kp SPACE  &TD_L2_L1
+&kp ESC                       &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y    &kp U      &kp I      &kp O      &kp P     &kp BSPC
+&TD_tab_shift LEFT_SHIFT TAB  &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
+&kp LEFT_CONTROL              &kp Z  &kp X  &TD_Shft_F19  &kp C         &kp V        &kp B    &kp N      &kp M      &kp COMMA  &kp DOT   &kp SLASH
+                                            &kp LEFT_ALT  &kp LEFT_ALT  &TD_L1_L2    &kp RET  &kp SPACE  &TD_L2_L1
             >;
         };
 
