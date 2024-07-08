@@ -231,6 +231,7 @@ combos:
   l: [Alpha]
 - p: [4, 16]
   k: '4'
+  l: [Alpha]
 - p: [5, 17]
   k: '5'
   l: [Alpha]
