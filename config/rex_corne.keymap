@@ -126,6 +126,7 @@
         Num4 {
             bindings = <&kp NUMBER_4>;
             key-positions = <4 16>;
+            layers = <0>;
         };
 
         Num5 {
