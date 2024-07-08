@@ -108,16 +108,19 @@
         Num1 {
             bindings = <&kp NUMBER_1>;
             key-positions = <1 13>;
+            layers = <0>;
         };
 
         Num2 {
             bindings = <&kp NUMBER_2>;
             key-positions = <2 14>;
+            layers = <0>;
         };
 
         Num3 {
             bindings = <&kp NUMBER_3>;
             key-positions = <3 15>;
+            layers = <0>;
         };
 
         Num4 {
@@ -128,31 +131,103 @@
         Num5 {
             bindings = <&kp N5>;
             key-positions = <5 17>;
+            layers = <0>;
         };
 
         Num6 {
             bindings = <&kp NUMBER_6>;
             key-positions = <6 18>;
+            layers = <0>;
         };
 
         Num7 {
             bindings = <&kp N7>;
             key-positions = <7 19>;
+            layers = <0>;
         };
 
         Num8 {
             bindings = <&kp N8>;
             key-positions = <8 20>;
+            layers = <0>;
         };
 
         Num9 {
             bindings = <&kp N9>;
             key-positions = <9 21>;
+            layers = <0>;
         };
 
         Num0 {
             bindings = <&kp N0>;
             key-positions = <10 22>;
+            layers = <0>;
+        };
+
+        Sym_Exc {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <13 25>;
+            layers = <0>;
+        };
+
+        Sym_At {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <26 14>;
+            layers = <0>;
+        };
+
+        Sym_Hash {
+            bindings = <&kp HASH>;
+            key-positions = <15 27>;
+            layers = <0>;
+        };
+
+        Sym_Dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <16 28>;
+            layers = <0>;
+        };
+
+        Sym_Perc {
+            bindings = <&kp PERCENT>;
+            key-positions = <17 29>;
+            layers = <0>;
+        };
+
+        Sym_Carot {
+            bindings = <&kp CARET>;
+            key-positions = <18 30>;
+            layers = <0>;
+        };
+
+        Sym_Amp {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <19 31>;
+            layers = <0>;
+        };
+
+        Sym_Ast {
+            bindings = <&kp ASTERISK>;
+            key-positions = <20 32>;
+            layers = <0>;
+        };
+
+        Sym_LParens {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <21 33>;
+            layers = <0>;
+        };
+
+        Sym_RParens {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <22 34>;
+            layers = <0>;
+        };
+
+        Sym_Dash {
+            bindings = <&kp MINUS>;
+            key-positions = <23 35>;
+            layers = <0>;
         };
     };
 
