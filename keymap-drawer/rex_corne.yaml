@@ -1,4 +1,3 @@
-layout: {qmk_keyboard: crkbd/rev1}
 layers:
   Alpha: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, '&TD_Shft_F19', C, V, B, N, M, ',', ., /, LEFT ALT, LCTRL,
     '&TD_L1_L2', RET, SPACE, '&TD_L2_L1']
@@ -182,21 +181,63 @@ combos:
   l: [Alpha]
 - p: [1, 13]
   k: '1'
+  l: [Alpha]
 - p: [2, 14]
   k: '2'
+  l: [Alpha]
 - p: [3, 15]
   k: '3'
+  l: [Alpha]
 - p: [4, 16]
   k: '4'
 - p: [5, 17]
   k: '5'
+  l: [Alpha]
 - p: [6, 18]
   k: '6'
+  l: [Alpha]
 - p: [7, 19]
   k: '7'
+  l: [Alpha]
 - p: [8, 20]
   k: '8'
+  l: [Alpha]
 - p: [9, 21]
   k: '9'
+  l: [Alpha]
 - p: [10, 22]
   k: '0'
+  l: [Alpha]
+- p: [13, 25]
+  k: '!'
+  l: [Alpha]
+- p: [26, 14]
+  k: '@'
+  l: [Alpha]
+- p: [15, 27]
+  k: '#'
+  l: [Alpha]
+- p: [16, 28]
+  k: $
+  l: [Alpha]
+- p: [17, 29]
+  k: '%'
+  l: [Alpha]
+- p: [18, 30]
+  k: ^
+  l: [Alpha]
+- p: [19, 31]
+  k: '&'
+  l: [Alpha]
+- p: [20, 32]
+  k: '*'
+  l: [Alpha]
+- p: [21, 33]
+  k: (
+  l: [Alpha]
+- p: [22, 34]
+  k: )
+  l: [Alpha]
+- p: [23, 35]
+  k: '-'
+  l: [Alpha]
