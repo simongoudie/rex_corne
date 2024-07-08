@@ -1,6 +1,47 @@
 layers:
-  Alpha: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, '&TD_Shft_F19', C, V, B, N, M, ',', ., /, LEFT ALT, LCTRL,
-    '&TD_L1_L2', RET, SPACE, '&TD_L2_L1']
+  Alpha:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - {t: TAB, h: LEFT SHIFT}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LEFT CONTROL
+  - Z
+  - X
+  - '&TD_Shft_F19'
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT ALT
+  - LEFT ALT
+  - '&TD_L1_L2'
+  - RET
+  - SPACE
+  - '&TD_L2_L1'
   Number:
   - {t: ▽, type: trans}
   - '!'
