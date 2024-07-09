@@ -1,0 +1,5 @@
+config SHIELD_REX_CORNED_LEFT
+    def_bool $(shields_list_contains,rex_corned_left)
+
+config SHIELD_REX_CORNED_RIGHT
+    def_bool $(shields_list_contains,rex_corned_right)
