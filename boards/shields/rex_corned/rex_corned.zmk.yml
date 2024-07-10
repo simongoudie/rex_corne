@@ -12,3 +12,4 @@ features:
 siblings:
   - rex_corned_left
   - rex_corned_right
+  - rex_corned_dongle

@@ -1,16 +1,22 @@
 if SHIELD_REX_CORNED_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Rex_Corne"
+    default "Rex_Corned"
 
-config ZMK_SPLIT_ROLE_CENTRAL
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
     default y
 
 endif
 
-if SHIELD_REX_CORNED_LEFT || SHIELD_REX_CORNED_RIGHT
+if SHIELD_REX_CORNED_LEFT || SHIELD_REX_CORNED_RIGHT || SHIELD_REX_CORNED_DONGLE
 
 config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
     default y
 
 config ZMK_DISPLAY
