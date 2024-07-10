@@ -33,6 +33,6 @@ include:
   - board: nice_nano_v2
     shield: rex_corned_right
 #    snippet: zmk-usb-logging
-  - board: nice_nano_v3
+  - board: nice_nano_v2
     shield: rex_corned_dongle
 #    snippet: zmk-usb-logging
