@@ -1,4 +1,4 @@
-if SHIELD_REX_CORNED_LEFT
+if SHIELD_REX_CORNED_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "Rex_Corned"
