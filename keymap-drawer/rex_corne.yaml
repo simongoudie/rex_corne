@@ -153,7 +153,7 @@ layers:
   - '*'
   - /
   - CALCULATOR
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,7 +164,7 @@ layers:
   - '3'
   - .
   - COPY
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,3 +283,13 @@ combos:
 - p: [23, 35]
   k: '-'
   l: [Alpha]
+- p: [3, 4]
+  k: Alt+ TAB
+- p: [3, 2]
+  k: Ctl+ TAB
+- p: [0, 12, 24]
+  k: '&bootloader'
+- p: [11, 35, 23]
+  k: '&bootloader'
+- p: [10, 22, 34]
+  k: OUT TOG
