@@ -1,0 +1,15 @@
+file_format: "1"
+id: rex_corned
+name: Rex Corned
+type: shield
+url: https://github.com/simongoudie/rex_corned/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - rex_corned_left
+  - rex_corned_right
+  - rex_corned_dongle
