@@ -24,7 +24,7 @@
 
         TV_Lparens {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <5 4>;
+            key-positions = <5 5>;
             layers = <0>;
         };
 
