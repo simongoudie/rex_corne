@@ -24,7 +24,7 @@ layers:
   - L
   - ;
   - ''''
-  - LEFT CONTROL
+  - LEFT SHIFT
   - Z
   - X
   - '&TD_Shft_F19'
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - LEFT SHIFT
+  - RCTRL
   - LEFT ALT
   - '&TD_L1_L2'
   - RET
@@ -54,7 +54,7 @@ layers:
   - '*'
   - (
   - )
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -178,7 +178,7 @@ combos:
 - p: [29, 6]
   k: /
   l: [Alpha]
-- p: [5, 5]
+- p: [5, 5, 4]
   k: (
   l: [Alpha]
 - p: [6, 7]
@@ -285,11 +285,16 @@ combos:
   l: [Alpha]
 - p: [3, 4]
   k: Alt+ TAB
+  l: [Alpha]
 - p: [3, 2]
   k: Ctl+ TAB
+  l: [Alpha]
 - p: [0, 12, 24]
   k: '&bootloader'
+  l: [Alpha]
 - p: [11, 35, 23]
   k: '&bootloader'
+  l: [Alpha]
 - p: [10, 22, 34]
   k: OUT TOG
+  l: [Alpha]

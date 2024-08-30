@@ -82,6 +82,10 @@ text.shifted {
     dominant-baseline: hanging;
 }
 
+text.layer-activator {
+    text-decoration: underline;
+}
+
 /* styling for hold/shifted label text in combo box */
 text.combo.hold, text.combo.shifted {
     font-size: 8px;
@@ -116,7 +120,7 @@ rect.held, rect.combo.held {
   fill: #f00;
 }</style>
 <g transform="translate(30, 0)" class="layer-Alpha">
-<text x="0" y="28" class="label">Alpha:</text>
+<text x="0" y="28" class="label" id="Alpha">Alpha:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -490,7 +494,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 <g transform="translate(30, 330)" class="layer-Number">
-<text x="0" y="28" class="label">Number:</text>
+<text x="0" y="28" class="label" id="Number">Number:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -695,7 +699,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-Function">
-<text x="0" y="28" class="label">Function:</text>
+<text x="0" y="28" class="label" id="Function">Function:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -910,7 +914,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 <g transform="translate(30, 991)" class="layer-Calc">
-<text x="0" y="28" class="label">Calc:</text>
+<text x="0" y="28" class="label" id="Calc">Calc:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
