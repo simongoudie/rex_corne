@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - BSPC
-  - {t: TAB, h: LEFT SHIFT}
+  - {t: TAB, h: Function}
   - A
   - S
   - D
@@ -24,7 +24,7 @@ layers:
   - L
   - ;
   - ''''
-  - LEFT SHIFT
+  - {t: DELETE, h: LEFT SHIFT}
   - Z
   - X
   - '&TD_Shft_F19'
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - RCTRL
+  - LCTRL
   - LEFT ALT
   - '&TD_L1_L2'
   - RET
@@ -98,7 +98,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
+  - {type: held}
   - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -141,7 +141,7 @@ layers:
   - +
   - '-'
   - BSPC
-  - EP ON
+  - {t: EP ON, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
