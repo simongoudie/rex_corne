@@ -1,6 +1,6 @@
 layers:
   Alpha:
-  - ESC
+  - {t: TAB, h: Function}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - BSPC
-  - {t: TAB, h: Function}
+  - {t: ESC, h: LEFT SHIFT}
   - A
   - S
   - D
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Function:
-  - {t: ▽, type: trans}
+  - {type: held}
   - F1
   - F2
   - F3
@@ -98,7 +98,7 @@ layers:
   - F9
   - F10
   - F11
-  - {type: held}
+  - {t: ▽, type: trans}
   - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Calc:
-  - BT CLR
+  - {t: BT CLR, type: held}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -141,7 +141,7 @@ layers:
   - +
   - '-'
   - BSPC
-  - {t: EP ON, type: held}
+  - EP ON
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
