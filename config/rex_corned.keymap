@@ -316,8 +316,8 @@
 
             label = "ALPHA";
             bindings = <
-&kp ESC                          &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y    &kp U      &kp I      &kp O      &kp P     &kp BSPC
-&TD_layer_tap 2 TAB              &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
+&TD_layer_tap 2 TAB              &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y    &kp U      &kp I      &kp O      &kp P     &kp BSPC
+&TD_tab_shift LEFT_SHIFT ESC     &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
 &TD_tab_shift LEFT_SHIFT DELETE  &kp Z  &kp X  &TD_Shft_F19  &kp C         &kp V        &kp B    &kp N      &kp M      &kp COMMA  &kp DOT   &kp SLASH
                                                &kp LCTRL     &kp LEFT_ALT  &TD_L1_L2    &kp RET  &kp SPACE  &TD_L2_L1
             >;
